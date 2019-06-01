@@ -1,0 +1,52 @@
+.background {
+  background-image: url("download.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.3rem;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  margin: 0;
+}
+.key {
+  padding: 0.2rem;
+  background: #03193d;
+  color: #c17498;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 5px solid black;
+  width: 45px;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  transition: all 1s ease-in-out;
+  flex-shrink: 1;
+}
+.playing {
+  transform: scale(1.1);
+  border: 5px solid #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+kbd {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.sound {
+  text-align: center;
+}
+@media (max-width: 42rem) {
+  .main {
+    justify-content: center;
+    display: grid;
+    grid-gap: 1.5rem;
+  }
+}
