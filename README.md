@@ -1,6 +1,6 @@
 # drumKit
-Simple app but to me very dear. It makes noises when you press some keys on the keyboard.
-This is really simle app with a bit of code but i whanted to put it
-          here because it is entertaining and i really like this app. When you
-          press some keys on keyboard you can here sound and a bit of css
+Simple app but very dear to me. It makes noises when you press some keys on the keyboard.
+This is really simple app with a bit of code but I wanted to put it
+          here because it is entertaining and I really like this app. When you
+          press some keys on keyboard you can hear sound and see a bit of css
           transition. It is also responsive for all devices.
