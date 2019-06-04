@@ -46,7 +46,10 @@ kbd {
 @media (max-width: 42rem) {
   .main {
     justify-content: center;
-    display: grid;
-    grid-gap: 1.5rem;
+
+    flex-direction: column;
+  }
+  .key {
+    margin-top: 0.5rem;
   }
 }
